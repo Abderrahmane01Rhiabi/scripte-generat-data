@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const cors = require('cors'); // addition we make
 
-const port = 8080;
+const port = 8880;
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
